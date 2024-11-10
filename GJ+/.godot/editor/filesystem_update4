@@ -4,3 +4,5 @@ res://Scenes/main.tscn
 res://Scenes/health_bar.tscn
 res://Scenes/wolf_enemy.gd
 res://Scripts/PathFollow2D.gd
+res://Scenes/apple_tree.tscn
+res://Scenes/apple_tree.gd
