@@ -144,7 +144,7 @@ size = Vector2(57, 59)
 [node name="WolfEnemy" type="PathFollow2D" groups=["Enemy"]]
 script = ExtResource("1_wrqww")
 
-[node name="Area2D" type="Area2D" parent="."]
+[node name="Area2D" type="Area2D" parent="." groups=["Enemy"]]
 collision_layer = 2
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Area2D"]

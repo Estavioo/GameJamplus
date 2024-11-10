@@ -26,7 +26,8 @@ func _on_enemy_timeout():
 		wave+=1
 		if wave<len(wave_mobs):
 			$Wave.start()
-		
+		else:
+			get_tree().change_scene("res://Scenes/win.tcn")
 	
 	
 	

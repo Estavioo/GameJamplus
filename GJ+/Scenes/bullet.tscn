@@ -1,59 +1,27 @@
-[gd_scene load_steps=9 format=3 uid="uid://gyhambuumtan"]
+[gd_scene load_steps=4 format=3 uid="uid://gyhambuumtan"]
 
 [ext_resource type="Texture2D" uid="uid://byul5r6nxa5ir" path="res://Art/FLYING APPLE.png" id="1_7itnh"]
 [ext_resource type="Script" path="res://Scenes/bullet.gd" id="1_qq2ff"]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_607q6"]
-atlas = ExtResource("1_7itnh")
-region = Rect2(0, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_p77g1"]
-atlas = ExtResource("1_7itnh")
-region = Rect2(64, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_vbkwa"]
-atlas = ExtResource("1_7itnh")
-region = Rect2(0, 64, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_53ci5"]
-atlas = ExtResource("1_7itnh")
-region = Rect2(64, 64, 64, 64)
-
-[sub_resource type="SpriteFrames" id="SpriteFrames_kphyv"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_607q6")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_p77g1")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_vbkwa")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_53ci5")
-}],
-"loop": true,
-"name": &"default",
-"speed": 10.0
-}]
-
-[sub_resource type="CircleShape2D" id="CircleShape2D_ipxa1"]
-radius = 23.0217
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ab38m"]
+size = Vector2(20, 21)
 
 [node name="Bullet" type="Area2D" groups=["Bullet"]]
+z_index = 2
 script = ExtResource("1_qq2ff")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-sprite_frames = SubResource("SpriteFrames_kphyv")
-autoplay = "default"
-frame = 2
-frame_progress = 0.15579
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_7itnh")
+hframes = 2
+vframes = 2
 
 [node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+position = Vector2(-0.999999, -0.499999)
+scale = Vector2(1, 1.05)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("CircleShape2D_ipxa1")
+position = Vector2(-1, -0.5)
+shape = SubResource("RectangleShape2D_ab38m")
 
 [connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]

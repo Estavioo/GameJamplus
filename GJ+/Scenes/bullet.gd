@@ -1,21 +1,16 @@
 extends Area2D
 
-var move=Vector2.ZERO
-var speed = 3000
-var look_vec=Vector2.ZERO
-var target
+var target : Node2D
+var speed = 300 
+var direction = Vector2.ZERO
 
 func _ready():
-	if target != null:
-		$AnimatedSprite2D.look_at(target.global_position)
-		look_vec = target.global_position - global_position
-		
-func _physics_process(delta):
-	move=Vector2.ZERO
-	
-	move = move.move_toward(look_vec,delta)
-	move = move.normalized() * speed
-	global_position += move
+	if target:
+		direction = (target.global_position - global_position).normalized()
 
+func _physics_process(delta):
+	global_position += direction * speed * delta
+	
 func _on_visible_on_screen_notifier_2d_screen_exited():
-	queue_free()
+	if not get_viewport_rect().has_point(global_position):
+		queue_free()

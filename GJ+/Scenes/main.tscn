@@ -65,7 +65,7 @@ layer_2/tile_data = PackedInt32Array(1769497, 3, 12, 1441817, 3, 12, 1114137, 3,
 curve = SubResource("Curve2D_iw4cq")
 
 [node name="AppleTree" parent="." instance=ExtResource("4_ckayt")]
-position = Vector2(985, 147)
+position = Vector2(984, 152)
 
 [node name="Wave" type="Timer" parent="."]
 one_shot = true
