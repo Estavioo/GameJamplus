@@ -1,1 +1,4 @@
 res://Scripts/health_bar.tscn
+res://Scenes/wolf_enemy.tscn
+res://Scenes/enemywolf.tscn
+res://Scenes/main.tscn

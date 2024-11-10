@@ -1,9 +1,14 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1731205824
+::res://::1731206559
 icon.svg::CompressedTexture2D::9153216310564216638::1731204199::1731204225::1::::<><>::
 node_2d.gd::GDScript::-1::1731205810::0::1::::<>ProgressBar<>::
-::res://Art/::1731204246
+::res://Art/::1731206567
+ASD.jpg::CompressedTexture2D::7300769697228464818::1731204444::1731206559::1::::<><>::
+grass tilemap.png::CompressedTexture2D::4120873024903903784::1731206567::1731206567::1::::<><>::
+tilemap.png::CompressedTexture2D::3056520834143152940::1731206567::1731206567::1::::<><>::
+wolf sprtie.png::CompressedTexture2D::3159366926632621264::1731206567::1731206567::1::::<><>::
 ::res://Misc/::1731204251
-::res://Scripts/::1731205810
-ASD.jpg::CompressedTexture2D::7300769697228464818::1731204444::1731204440::1::::<><>::
-health_bar.tscn::PackedScene::278580321314357945::1731205810::0::1::::<><>::
+::res://Scenes/::1731206557
+health_bar.tscn::PackedScene::278580321314357945::1731206459::0::1::::<><>::
+wolf_enemy.tscn::PackedScene::5547523337755114895::1731206554::0::1::::<><>::
+::res://Scripts/::1731206559

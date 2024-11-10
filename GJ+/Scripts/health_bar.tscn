@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://d77ga3kwc6an"]
-
-[ext_resource type="Texture2D" uid="uid://dcasu0ptetphq" path="res://Scripts/ASD.jpg" id="1_ml0bs"]
-
-[node name="HEALTH BAR" type="Node2D"]
-
-[node name="Asd" type="Sprite2D" parent="."]
-position = Vector2(545, 367)
-texture = ExtResource("1_ml0bs")
