@@ -1,5 +1,6 @@
-[gd_scene load_steps=6 format=3 uid="uid://blmnyj76p60dx"]
+[gd_scene load_steps=7 format=3 uid="uid://blmnyj76p60dx"]
 
+[ext_resource type="Script" path="res://Scenes/main.gd" id="1_cfxv4"]
 [ext_resource type="Texture2D" uid="uid://bjsupmayadkky" path="res://Art/tilemap.png" id="1_hqyrc"]
 [ext_resource type="PackedScene" uid="uid://bfvha5gvbr7ny" path="res://Scenes/apple_tree.tscn" id="4_ckayt"]
 
@@ -48,6 +49,7 @@ _data = {
 point_count = 10
 
 [node name="Main" type="Node2D"]
+script = ExtResource("1_cfxv4")
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_lqga4")
@@ -63,4 +65,13 @@ layer_2/tile_data = PackedInt32Array(1769497, 3, 12, 1441817, 3, 12, 1114137, 3,
 curve = SubResource("Curve2D_iw4cq")
 
 [node name="AppleTree" parent="." instance=ExtResource("4_ckayt")]
-position = Vector2(409, 198)
+position = Vector2(985, 147)
+
+[node name="Wave" type="Timer" parent="."]
+one_shot = true
+
+[node name="Enemy" type="Timer" parent="."]
+wait_time = 5.0
+
+[connection signal="timeout" from="Wave" to="." method="_on_wave_timeout"]
+[connection signal="timeout" from="Enemy" to="." method="_on_enemy_timeout"]

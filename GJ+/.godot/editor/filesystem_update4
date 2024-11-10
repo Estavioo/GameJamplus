@@ -6,3 +6,6 @@ res://Scenes/wolf_enemy.gd
 res://Scripts/PathFollow2D.gd
 res://Scenes/apple_tree.tscn
 res://Scenes/apple_tree.gd
+res://Scenes/main.gd
+res://Scenes/bullet.tscn
+res://Scenes/bullet.gd
