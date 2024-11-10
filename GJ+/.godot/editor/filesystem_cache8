@@ -1,23 +1,27 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1731211109
-icon.svg::CompressedTexture2D::9153216310564216638::1731204199::1731204225::1::::<><>::
-node_2d.gd::GDScript::-1::1731205810::0::1::::<>ProgressBar<>::
-::res://Art/::1731212337
-ASD.jpg::CompressedTexture2D::7300769697228464818::1731204444::1731206559::1::::<><>::
-FLYING APPLE.png::CompressedTexture2D::4112962888231972329::1731212337::1731212337::1::::<><>::
-grass tilemap.png::CompressedTexture2D::4120873024903903784::1731206567::1731206567::1::::<><>::
-SMASHED APPLE.png::CompressedTexture2D::4326458056954125491::1731212337::1731212337::1::::<><>::
-tilemap.png::CompressedTexture2D::3056520834143152940::1731206567::1731206567::1::::<><>::
-TREE IDLE.png::CompressedTexture2D::3276097797301256338::1731212337::1731212337::1::::<><>::
-TREE SHOOTING.png::CompressedTexture2D::7941477012569437118::1731212337::1731212337::1::::<><>::
-wolf sprtie.png::CompressedTexture2D::3159366926632621264::1731206567::1731206567::1::::<><>::
-::res://Misc/::1731204251
-::res://Scenes/::1731212280
-health_bar.tscn::PackedScene::278580321314357945::1731211591::0::1::::<><>::
-main.tscn::PackedScene::3184103200293539369::1731211662::0::1::::<><>::uid://bjsupmayadkky::::res://Art/tilemap.png<>uid://clbi5tdfx6sd0::::res://Scenes/wolf_enemy.tscn<>res://Scripts/PathFollow2D.gd
-apple_tree.tscn::PackedScene::2781143439593400202::1731212280::0::1::::<><>::
-wolf_enemy.gd::GDScript::-1::1731209893::0::1::::<>CharacterBody2D<>::
-wolf_enemy.tscn::PackedScene::5547523337755114895::1731211591::0::1::::<><>::uid://blaokuk0yjwtk::::res://Art/wolf sprtie.png
-::res://Scripts/::1731210092
-PathFollow2D.gd::GDScript::-1::1731210092::0::1::::<>PathFollow2D<>::
-wolf_enemy.gd::GDScript::-1::1731209817::0::1::::<>CharacterBody2D<>::
+::res://::1731217458
+icon.svg::CompressedTexture2D::9153216310564216638::1731205455::1731217458::1::::<><>::
+node_2d.gd::GDScript::-1::1731205744::0::1::::<>ProgressBar<>::
+::res://Art/::1731217458
+ASD.jpg::CompressedTexture2D::7300769697228464818::1731217429::1731217458::1::::<><>::
+FLYING APPLE.png::CompressedTexture2D::4112962888231972329::1731217429::1731217458::1::::<><>::
+grass tilemap.png::CompressedTexture2D::4120873024903903784::1731217429::1731217458::1::::<><>::
+SMASHED APPLE.png::CompressedTexture2D::4326458056954125491::1731217429::1731217458::1::::<><>::
+tilemap.png::CompressedTexture2D::3056520834143152940::1731217429::1731217458::1::::<><>::
+TREE IDLE.png::CompressedTexture2D::3276097797301256338::1731217429::1731217458::1::::<><>::
+TREE SHOOTING.png::CompressedTexture2D::7941477012569437118::1731217429::1731217458::1::::<><>::
+wolf sprtie.png::CompressedTexture2D::3159366926632621264::1731217429::1731217458::1::::<><>::
+::res://Scenes/::1731217498
+apple_tree.gd::GDScript::-1::1731217429::0::1::::<>Node2D<>::
+apple_tree.tscn::PackedScene::2781143439593400202::1731217429::0::1::::<><>::uid://bmw738accmpl7::::res://Art/TREE IDLE.png<>res://Scenes/apple_tree.gd<>uid://dle573346fi0u::::res://Art/TREE SHOOTING.png<>uid://byul5r6nxa5ir::::res://Art/FLYING APPLE.png
+bullet.gd::GDScript::-1::1731217429::0::1::::<>Area2D<>::
+bullet.tscn::PackedScene::471103779635929145::1731217429::0::1::::<><>::uid://byul5r6nxa5ir::::res://Art/FLYING APPLE.png<>res://Scenes/bullet.gd
+health_bar.tscn::PackedScene::278580321314357945::1731217429::0::1::::<><>::
+main.gd::GDScript::-1::1731217429::0::1::::<>Node2D<>::
+main.tscn::PackedScene::3184103200293539369::1731217429::0::1::::<><>::res://Scenes/main.gd<>uid://bjsupmayadkky::::res://Art/tilemap.png<>uid://bfvha5gvbr7ny::::res://Scenes/apple_tree.tscn
+damage number.gd::GDScript::-1::1731217498::0::1::::<>Node<>::
+wolf_enemy.gd::GDScript::-1::1731217429::0::1::::<>PathFollow2D<>::
+wolf_enemy.tscn::PackedScene::5547523337755114895::1731217429::0::1::::<><>::uid://blaokuk0yjwtk::::res://Art/wolf sprtie.png<>res://Scenes/wolf_enemy.gd
+::res://Scripts/::1731217429
+PathFollow2D.gd::GDScript::-1::1731217429::0::1::::<>PathFollow2D<>::
+wolf_enemy.gd::GDScript::-1::1731217429::0::1::::<>CharacterBody2D<>::

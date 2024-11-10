@@ -7,4 +7,3 @@ func _physics_process(delta):
 	progress += speed*delta
 	if progress >= 10000:
 		queue_free()
-
