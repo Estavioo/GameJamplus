@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://dfpusydxntnma"]
+
+[ext_resource type="Texture2D" uid="uid://puuy2rs1d8h1" path="res://Scripts/H0USE-Sheet.png" id="1_hj14x"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cle7v"]
+size = Vector2(64, 56)
+
+[node name="HOUSE" type="Area2D"]
+scale = Vector2(2.57123, 2.47214)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_hj14x")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 8)
+shape = SubResource("RectangleShape2D_cle7v")

@@ -13,3 +13,7 @@ res://Scenes/piggy.tscn
 res://Scenes/pause_menu.tscn
 res://Scenes/pause_menu.gdshader
 res://Scenes/pause_menu.gd
+res://Scenes/House.tscn
+res://Scenes/housee.tscn
+res://Scenes/housee.gd
+res://Scenes/game_over.tscn

@@ -97,7 +97,8 @@ text = "Restart"
 [node name="Button3" type="Button" parent="PanelContainer/VBoxContainer"]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("1_glo16")
-text = "Quit"
+text = "Menu
+"
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
