@@ -1,8 +1,13 @@
-[gd_scene load_steps=7 format=3 uid="uid://blmnyj76p60dx"]
+[gd_scene load_steps=14 format=3 uid="uid://blmnyj76p60dx"]
 
 [ext_resource type="Script" path="res://Scenes/main.gd" id="1_cfxv4"]
 [ext_resource type="Texture2D" uid="uid://bjsupmayadkky" path="res://Art/tilemap.png" id="1_hqyrc"]
-[ext_resource type="PackedScene" uid="uid://bfvha5gvbr7ny" path="res://Scenes/apple_tree.tscn" id="4_ckayt"]
+[ext_resource type="Texture2D" uid="uid://c20hpom6p4y8g" path="res://Scripts/buttton.png" id="3_babd8"]
+[ext_resource type="PackedScene" uid="uid://bubq2b5k0ugkn" path="res://Scenes/platform.tscn" id="4_2gkhh"]
+[ext_resource type="FontFile" uid="uid://ctb3ansvnpmkh" path="res://Scripts/PublicPixel-rv0pA.ttf" id="4_2yaiw"]
+[ext_resource type="Texture2D" uid="uid://puuy2rs1d8h1" path="res://Scripts/H0USE-Sheet.png" id="6_k8lv8"]
+[ext_resource type="PackedScene" uid="uid://bjju2480xeuk4" path="res://Scenes/piggy.tscn" id="7_xpnwl"]
+[ext_resource type="PackedScene" uid="uid://b3hcj78ghwud7" path="res://Scenes/pause_menu.tscn" id="8_u4aif"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_68jwo"]
 texture = ExtResource("1_hqyrc")
@@ -48,6 +53,13 @@ _data = {
 }
 point_count = 10
 
+[sub_resource type="LabelSettings" id="LabelSettings_m8lc2"]
+font = ExtResource("4_2yaiw")
+font_size = 11
+
+[sub_resource type="LabelSettings" id="LabelSettings_um8er"]
+font = ExtResource("4_2yaiw")
+
 [node name="Main" type="Node2D"]
 script = ExtResource("1_cfxv4")
 
@@ -59,13 +71,10 @@ layer_0/tile_data = PackedInt32Array(65537, 524291, 4, 131073, 524291, 4, 196609
 layer_1/name = "Path"
 layer_1/tile_data = PackedInt32Array(327685, 524291, 4, 393221, 524291, 4, 458757, 524291, 4, 589829, 524291, 4, 327689, 262147, 8, 589833, 786435, 0, 327693, 262147, 8, 589837, 786435, 0, 327697, 262147, 8, 327701, 524291, 8, 589845, 262147, 0, 720917, 262147, 0, 786453, 262147, 0, 851989, 262147, 0, 917525, 262147, 0, 983061, 262147, 0, 1048597, 262147, 0, 1114133, 262147, 0, 1179669, 262147, 0, 1245205, 262147, 0, 1310741, 262147, 0, 1376277, 262147, 0, 1441813, 262147, 0, 1507349, 262147, 0, 1572885, 262147, 0, 1638421, 262147, 0, 1703957, 262147, 0, 1769493, 262147, 0, 2031637, 3, 8, 2293781, 786435, 0, 2031641, 262147, 8, 2293785, 786435, 0, 327709, 786435, 4, 589853, 786435, 8, 720925, 786435, 8, 786461, 786435, 8, 851997, 786435, 8, 917533, 786435, 8, 983069, 786435, 8, 1048605, 786435, 8, 1114141, 786435, 8, 1179677, 786435, 8, 1245213, 786435, 8, 1310749, 786435, 8, 1376285, 786435, 8, 1441821, 786435, 8, 1507357, 786435, 8, 1572893, 786435, 8, 1638429, 786435, 8, 1703965, 786435, 8, 1769501, 786435, 8, 1835037, 786435, 8, 1900573, 786435, 8, 1966109, 786435, 8, 2031645, 786435, 12, 2293789, 786435, 0, 327713, 262147, 8, 589857, 262147, 12, 852001, 262147, 0, 917537, 262147, 0, 983073, 262147, 0, 1048609, 262147, 0, 1114145, 262147, 0, 1179681, 262147, 0, 1245217, 262147, 0, 1310753, 262147, 0, 1376289, 262147, 0, 1441825, 262147, 0, 1507361, 262147, 0, 1572897, 262147, 0, 1638433, 262147, 0, 1703969, 262147, 0, 1769505, 262147, 0, 1835041, 262147, 0, 1900577, 262147, 0, 1966113, 262147, 0, 2031649, 262147, 0, 2293793, 262147, 4, 327717, 262147, 8, 589861, 786435, 0, 327721, 262147, 8, 589865, 3, 0, 720937, 786435, 8, 786473, 786435, 8, 852009, 786435, 8, 917545, 786435, 8, 983081, 786435, 8, 1048617, 786435, 8, 1114153, 786435, 8, 1179689, 786435, 8, 1245225, 786435, 8, 1310761, 786435, 8, 1376297, 786435, 8, 1441833, 786435, 8, 1507369, 786435, 8, 1572905, 786435, 8, 1638441, 786435, 8, 1703977, 786435, 8, 1769513, 786435, 8, 2031657, 786435, 8, 2293801, 524291, 0, 327725, 524291, 8, 589869, 262147, 0, 720941, 262147, 0, 786477, 262147, 0, 852013, 262147, 0, 917549, 262147, 0, 983085, 262147, 0, 1048621, 262147, 0, 1114157, 262147, 0, 1179693, 262147, 0, 1245229, 262147, 0, 1310765, 262147, 0, 1376301, 262147, 0, 1441837, 262147, 0, 1507373, 262147, 0, 1572909, 262147, 0, 1638445, 262147, 0, 1703981, 262147, 0, 1769517, 262147, 0, 2031661, 3, 8, 2293805, 786435, 0, 2031665, 262147, 8, 2293809, 786435, 0, 2293810, 786435, 0, 2293811, 786435, 0, 2293812, 786435, 0, 65589, 786435, 4, 327733, 786435, 8, 589877, 786435, 8, 852021, 786435, 8, 917557, 786435, 8, 983093, 786435, 8, 1048629, 786435, 8, 1114165, 786435, 8, 1376309, 786435, 8, 1441845, 786435, 8, 1507381, 786435, 8, 1572917, 786435, 8, 1638453, 786435, 8, 1703989, 786435, 8, 1769525, 786435, 8, 2031669, 786435, 12, 2293813, 786435, 0, 65593, 262147, 8, 327737, 262147, 12, 589881, 262147, 0, 852025, 3, 8, 1048633, 3, 12, 1114169, 262147, 12, 1376313, 262147, 0, 1441849, 262147, 0, 1507385, 262147, 0, 1572921, 262147, 0, 1638457, 262147, 0, 1900601, 262147, 0, 1966137, 262147, 0, 2031673, 262147, 0, 2293817, 262147, 4, 65594, 262147, 8, 65595, 262147, 8, 65596, 262147, 8, 327740, 786435, 0, 65597, 262147, 8, 327741, 786435, 0, 852029, 262147, 8, 1114173, 786435, 0, 65598, 262147, 8, 327742, 786435, 0, 1114174, 786435, 0, 65599, 262147, 8, 327743, 786435, 0, 1114175, 786435, 0, 65600, 262147, 8, 327744, 786435, 0, 1114176, 786435, 0, 65601, 262147, 8, 327745, 786435, 0, 852033, 262147, 8, 1114177, 786435, 0, 65602, 262147, 8, 327746, 786435, 0, 1114178, 786435, 0, 65603, 262147, 8, 327747, 786435, 0, 1114179, 786435, 0, 65604, 262147, 8, 327748, 786435, 0, 1114180, 786435, 0, 65605, 262147, 8, 327749, 786435, 0, 852037, 262147, 8, 1114181, 786435, 0, 65606, 262147, 8, 327750, 786435, 0, 852038, 262147, 8, 1114182, 786435, 0, 1179665, 786435, 8, 1245201, 786435, 8, 1310737, 786435, 8, 1376273, 786435, 8, 1441809, 786435, 8, 1507345, 786435, 8, 1572881, 786435, 8, 1638417, 786435, 8, 1703953, 786435, 8, 1769489, 786435, 8, 2031633, 786435, 8, 2293777, 524291, 0, 1048593, 786435, 8, 1114129, 786435, 8, 786449, 786435, 8, 851985, 786435, 8, 917521, 786435, 8, 983057, 786435, 8, 655389, 786435, 8, 720913, 786435, 8, 589841, 3, 0)
 layer_2/name = "Turret placement"
-layer_2/tile_data = PackedInt32Array(1769497, 3, 12, 1441817, 3, 12, 1114137, 3, 12, 786457, 3, 12, 458777, 3, 12, 458801, 3, 12, 786481, 3, 12, 1114161, 3, 12, 1441841, 3, 12, 1769521, 3, 12, 1769509, 3, 12, 1441829, 3, 12, 1114149, 3, 12, 786469, 3, 12, 786446, 3, 12, 1114126, 3, 12, 1441806, 3, 12, 1769486, 3, 12, 1376317, 3, 12, 589885, 3, 12, 589890, 3, 12, 1376322, 3, 12, 2097189, 3, 12, 2097166, 3, 12, 1703997, 3, 12, 2031677, 3, 12)
+layer_2/tile_data = PackedInt32Array()
 
 [node name="Path2D" type="Path2D" parent="."]
 curve = SubResource("Curve2D_iw4cq")
-
-[node name="AppleTree" parent="." instance=ExtResource("4_ckayt")]
-position = Vector2(984, 152)
 
 [node name="Wave" type="Timer" parent="."]
 one_shot = true
@@ -73,5 +82,81 @@ one_shot = true
 [node name="Enemy" type="Timer" parent="."]
 wait_time = 5.0
 
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="TextureButton" type="TextureButton" parent="CanvasLayer"]
+offset_left = 32.0
+offset_top = 560.0
+offset_right = 64.0
+offset_bottom = 592.0
+texture_normal = ExtResource("3_babd8")
+
+[node name="Label" type="Label" parent="CanvasLayer/TextureButton"]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 24.0
+offset_right = 46.0
+offset_bottom = 47.0
+text = "25"
+label_settings = SubResource("LabelSettings_m8lc2")
+
+[node name="Label" type="Label" parent="CanvasLayer"]
+offset_left = 16.0
+offset_top = 600.0
+offset_right = 182.0
+offset_bottom = 641.0
+label_settings = SubResource("LabelSettings_um8er")
+
+[node name="platform" parent="." instance=ExtResource("4_2gkhh")]
+position = Vector2(408, 448)
+
+[node name="platform3" parent="." instance=ExtResource("4_2gkhh")]
+position = Vector2(408, 288)
+
+[node name="platform5" parent="." instance=ExtResource("4_2gkhh")]
+position = Vector2(408, 128)
+
+[node name="platform6" parent="." instance=ExtResource("4_2gkhh")]
+position = Vector2(600, 208)
+
+[node name="platform8" parent="." instance=ExtResource("4_2gkhh")]
+position = Vector2(600, 368)
+
+[node name="platform10" parent="." instance=ExtResource("4_2gkhh")]
+position = Vector2(792, 448)
+
+[node name="platform12" parent="." instance=ExtResource("4_2gkhh")]
+position = Vector2(792, 288)
+
+[node name="platform14" parent="." instance=ExtResource("4_2gkhh")]
+position = Vector2(792, 128)
+
+[node name="platform15" parent="." instance=ExtResource("4_2gkhh")]
+position = Vector2(984, 152)
+
+[node name="platform21" parent="." instance=ExtResource("4_2gkhh")]
+position = Vector2(984, 344)
+
+[node name="platform18" parent="." instance=ExtResource("4_2gkhh")]
+position = Vector2(216, 368)
+
+[node name="platform20" parent="." instance=ExtResource("4_2gkhh")]
+position = Vector2(216, 208)
+
+[node name="H0use-sheet" type="Sprite2D" parent="."]
+position = Vector2(64, 96)
+scale = Vector2(1.90625, 2.5)
+texture = ExtResource("6_k8lv8")
+
+[node name="Node2D" parent="." instance=ExtResource("7_xpnwl")]
+position = Vector2(104, 192)
+
+[node name="PauseMenu" parent="." instance=ExtResource("8_u4aif")]
+offset_left = 584.0
+offset_top = 344.0
+offset_right = 584.0
+offset_bottom = 344.0
+
 [connection signal="timeout" from="Wave" to="." method="_on_wave_timeout"]
 [connection signal="timeout" from="Enemy" to="." method="_on_enemy_timeout"]
+[connection signal="pressed" from="CanvasLayer/TextureButton" to="." method="_on_texture_button_pressed"]

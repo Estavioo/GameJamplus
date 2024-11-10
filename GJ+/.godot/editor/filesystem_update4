@@ -8,3 +8,8 @@ res://Scenes/apple_tree.gd
 res://Scenes/main.gd
 res://Scenes/bullet.gd
 res://Scenes/wolf_enemy.gd
+res://Scenes/platform.tscn
+res://Scenes/piggy.tscn
+res://Scenes/pause_menu.tscn
+res://Scenes/pause_menu.gdshader
+res://Scenes/pause_menu.gd

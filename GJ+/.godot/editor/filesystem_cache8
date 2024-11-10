@@ -1,28 +1,42 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1731217652
+::res://::1731221338
 icon.svg::CompressedTexture2D::9153216310564216638::1731204199::1731204225::1::::<><>::
 node_2d.gd::GDScript::-1::1731205810::0::1::::<>ProgressBar<>::
-::res://Art/::1731212337
+::res://Art/::1731222611
 ASD.jpg::CompressedTexture2D::7300769697228464818::1731204444::1731206559::1::::<><>::
+button.png::CompressedTexture2D::5326857182757937189::1731222496::1731220712::1::::<><>::
 FLYING APPLE.png::CompressedTexture2D::4112962888231972329::1731212337::1731212337::1::::<><>::
 grass tilemap.png::CompressedTexture2D::4120873024903903784::1731206567::1731206567::1::::<><>::
 SMASHED APPLE.png::CompressedTexture2D::4326458056954125491::1731212337::1731212337::1::::<><>::
 tilemap.png::CompressedTexture2D::3056520834143152940::1731206567::1731206567::1::::<><>::
+tilemapaaa-export.png::CompressedTexture2D::9172901978747274221::1731222611::1731222611::1::::<><>::
+TREE IDLE-export.png::CompressedTexture2D::6099973317769855783::1731220642::1731220642::1::::<><>::
 TREE IDLE.png::CompressedTexture2D::3276097797301256338::1731212337::1731212337::1::::<><>::
 TREE SHOOTING.png::CompressedTexture2D::7941477012569437118::1731212337::1731212337::1::::<><>::
+ui elems.png::CompressedTexture2D::1391158980046242216::1731222496::1731222496::1::::<><>::
 wolf sprtie.png::CompressedTexture2D::3159366926632621264::1731206567::1731206567::1::::<><>::
 ::res://Misc/::1731204251
-::res://Scenes/::1731217622
-apple_tree.gd::GDScript::-1::1731216885::0::1::::<>Node2D<>::
-apple_tree.tscn::PackedScene::2781143439593400202::1731217072::0::1::::<><>::uid://bmw738accmpl7::::res://Art/TREE IDLE.png<>res://Scenes/apple_tree.gd<>uid://dle573346fi0u::::res://Art/TREE SHOOTING.png<>uid://byul5r6nxa5ir::::res://Art/FLYING APPLE.png
-bullet.gd::GDScript::-1::1731216584::0::1::::<>Area2D<>::
-bullet.tscn::PackedScene::471103779635929145::1731217061::0::1::::<><>::uid://byul5r6nxa5ir::::res://Art/FLYING APPLE.png<>res://Scenes/bullet.gd
-health_bar.tscn::PackedScene::278580321314357945::1731217061::0::1::::<><>::
-main.gd::GDScript::-1::1731217037::0::1::::<>Node2D<>::
-main.tscn::PackedScene::3184103200293539369::1731217061::0::1::::<><>::res://Scenes/main.gd<>uid://bjsupmayadkky::::res://Art/tilemap.png<>uid://bfvha5gvbr7ny::::res://Scenes/apple_tree.tscn
-wolf_enemy.gd::GDScript::-1::1731217622::0::1::::<>PathFollow2D<>::
-wolf_enemy.tscn::PackedScene::5547523337755114895::1731217061::0::1::::<><>::uid://blaokuk0yjwtk::::res://Art/wolf sprtie.png<>res://Scenes/wolf_enemy.gd
-::res://Scripts/::1731217622
+::res://Scenes/::1731225673
+apple_tree.gd::GDScript::-1::1731223666::0::1::::<>Node2D<>::
+apple_tree.tscn::PackedScene::2781143439593400202::1731225470::0::1::::<><>::uid://bmw738accmpl7::::res://Art/TREE IDLE.png<>res://Scenes/apple_tree.gd<>uid://dle573346fi0u::::res://Art/TREE SHOOTING.png
+bullet.gd::GDScript::-1::1731220433::0::1::::<>Area2D<>::
+bullet.tscn::PackedScene::471103779635929145::1731225470::0::1::::<><>::uid://byul5r6nxa5ir::::res://Art/FLYING APPLE.png<>res://Scenes/bullet.gd
+health_bar.tscn::PackedScene::278580321314357945::1731225470::0::1::::<><>::
+main.gd::GDScript::-1::1731224589::0::1::::<>Node2D<>::
+main.tscn::PackedScene::3184103200293539369::1731225470::0::1::::<><>::res://Scenes/main.gd<>uid://bjsupmayadkky::::res://Art/tilemap.png<>uid://c20hpom6p4y8g::::res://Scripts/buttton.png<>uid://bubq2b5k0ugkn::::res://Scenes/platform.tscn<>uid://ctb3ansvnpmkh::::res://Scripts/PublicPixel-rv0pA.ttf<>uid://puuy2rs1d8h1::::res://Scripts/H0USE-Sheet.png
+AnimatedSprite2D.gd::GDScript::-1::1731220085::0::1::::<>AnimatedSprite2D<>::
+piggy-Sheet (1).png::CompressedTexture2D::7466558999517160715::1731225673::1731225673::1::::<><>::
+platform.tscn::PackedScene::3793281721883542761::1731225470::0::1::::<><>::uid://d3xomc4ee0b6d::::res://Art/tilemapaaa-export.png
+win.tscn::PackedScene::1081375303863130289::1731225470::0::1::::<><>::
+wolf_enemy.gd::GDScript::-1::1731224919::0::1::::<>PathFollow2D<>::
+wolf_enemy.tscn::PackedScene::5547523337755114895::1731225470::0::1::::<><>::uid://blaokuk0yjwtk::::res://Art/wolf sprtie.png<>res://Scenes/wolf_enemy.gd
+::res://Scripts/::1731225406
+button1.png::CompressedTexture2D::652330048575768222::1731225192::1731225193::1::::<><>::
+buttonpre.png::CompressedTexture2D::5530253742570649177::1731225192::1731225193::1::::<><>::
+buttton.png::CompressedTexture2D::6720002150616776448::1731225406::1731225406::1::::<><>::
 damage number.gd::GDScript::-1::1731217622::0::1::::<>Node<>::
+H0USE-Sheet.png::CompressedTexture2D::1095378853805595716::1731224961::1731224961::1::::<><>::
 PathFollow2D.gd::GDScript::-1::1731210092::0::1::::<>PathFollow2D<>::
+PublicPixel-rv0pA.ttf::FontFile::6110194561642489587::1731224800::1731224800::1::::<><>::
+treeicon.png::CompressedTexture2D::4161827668929293817::1731225192::1731225193::1::::<><>::
 wolf_enemy.gd::GDScript::-1::1731209817::0::1::::<>CharacterBody2D<>::

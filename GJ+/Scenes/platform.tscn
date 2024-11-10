@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bubq2b5k0ugkn"]
+
+[ext_resource type="Texture2D" uid="uid://d3xomc4ee0b6d" path="res://Art/tilemapaaa-export.png" id="1_h15e6"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_40fu7"]
+size = Vector2(64, 64)
+
+[node name="platform" type="Area2D" groups=["Platform"]]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_h15e6")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_40fu7")

@@ -1,9 +1,8 @@
-[gd_scene load_steps=18 format=3 uid="uid://bfvha5gvbr7ny"]
+[gd_scene load_steps=17 format=3 uid="uid://bfvha5gvbr7ny"]
 
 [ext_resource type="Texture2D" uid="uid://bmw738accmpl7" path="res://Art/TREE IDLE.png" id="1_cunrt"]
 [ext_resource type="Script" path="res://Scenes/apple_tree.gd" id="1_feuap"]
 [ext_resource type="Texture2D" uid="uid://dle573346fi0u" path="res://Art/TREE SHOOTING.png" id="2_mjxmg"]
-[ext_resource type="Texture2D" uid="uid://byul5r6nxa5ir" path="res://Art/FLYING APPLE.png" id="4_v5na8"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_i6q3e"]
 atlas = ExtResource("1_cunrt")
@@ -102,13 +101,6 @@ sprite_frames = SubResource("SpriteFrames_ftdc1")
 animation = &"Idle"
 autoplay = "Idle"
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(1.33334, -13.3333)
-scale = Vector2(0.3, 0.3)
-texture = ExtResource("4_v5na8")
-hframes = 2
-vframes = 2
-
 [node name="Area2D2" type="Area2D" parent="."]
 collision_mask = 2
 
@@ -126,4 +118,6 @@ autostart = true
 
 [connection signal="area_entered" from="Area2D2" to="." method="_on_area_2d_2_area_entered"]
 [connection signal="area_exited" from="Area2D2" to="." method="_on_area_2d_2_area_exited"]
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]
+[connection signal="area_exited" from="Area2D" to="." method="_on_area_2d_area_exited"]
 [connection signal="timeout" from="Shoot" to="." method="_on_shoot_timeout"]
