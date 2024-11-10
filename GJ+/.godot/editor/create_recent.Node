@@ -1,14 +1,14 @@
+Button
+VBoxContainer
+MarginContainer
 Sprite2D
 CollisionShape2D
 Area2D
 StaticBody2D
 ColorRect
 AnimationPlayer
-Button
-VBoxContainer
 PanelContainer
 AnimatedSprite2D
 Node
 Label
 TextureButton
-CanvasLayer
