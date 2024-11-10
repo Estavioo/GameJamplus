@@ -1,6 +1,7 @@
-[gd_scene load_steps=15 format=3 uid="uid://bjju2480xeuk4"]
+[gd_scene load_steps=16 format=3 uid="uid://bjju2480xeuk4"]
 
 [ext_resource type="Texture2D" uid="uid://dem4evbhno524" path="res://Scenes/piggy-Sheet (1).png" id="1_qjt7j"]
+[ext_resource type="Script" path="res://Scenes/piggy.gd" id="1_sfpmq"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_14s0e"]
 atlas = ExtResource("1_qjt7j")
@@ -105,9 +106,15 @@ animations = [{
 }]
 
 [node name="Node2D" type="Node2D"]
+script = ExtResource("1_sfpmq")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_fhwml")
 animation = &"idle"
 autoplay = "idle"
-frame_progress = 0.436897
+frame_progress = 0.845886
+
+[node name="backtoidle" type="Timer" parent="."]
+wait_time = 1.5
+
+[connection signal="timeout" from="backtoidle" to="." method="_on_backtoidle_timeout"]

@@ -1,6 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://dv6rm2k1esiqw"]
+[gd_scene load_steps=4 format=3 uid="uid://dv6rm2k1esiqw"]
 
 [ext_resource type="Script" path="res://Menu.gd" id="1_ca571"]
+[ext_resource type="Texture2D" uid="uid://bf6iidynmmrci" path="res://Scenes/462566725_786999476852626_5887043176054404826_n.png" id="2_3g86u"]
 [ext_resource type="FontFile" uid="uid://ctb3ansvnpmkh" path="res://Scripts/PublicPixel-rv0pA.ttf" id="2_s4mbd"]
 
 [node name="Menu" type="Control"]
@@ -12,6 +13,11 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_ca571")
 
+[node name="UseTheTilemapInThisConfig" type="Sprite2D" parent="."]
+position = Vector2(576, 324)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("2_3g86u")
+
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 1
 anchors_preset = 8
@@ -19,10 +25,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -21.0
-offset_top = -33.0
-offset_right = 21.0
-offset_bottom = 33.0
+offset_left = -32.0
+offset_top = 156.0
+offset_right = 40.0
+offset_bottom = 222.0
 grow_horizontal = 2
 grow_vertical = 2
 

@@ -10,7 +10,8 @@ func _on_area_2d_area_entered(area):
 	
 	if area.is_in_group("Enemy"):  # Check if the area belongs to an enemy
 		enemy_counter += 1
-		print("Enemy reached the house! Total:", enemy_counter)
+		if enemy_counter == 1:
+			$AnimatedSprite2D.play("broken")
 		
 		if enemy_counter >= MAX_ENEMIES:
 			

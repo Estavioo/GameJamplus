@@ -1,14 +1,20 @@
-[gd_scene load_steps=4 format=3 uid="uid://htv1hexi6ij1"]
+[gd_scene load_steps=5 format=3 uid="uid://htv1hexi6ij1"]
 
 [ext_resource type="Texture2D" uid="uid://wshu0tys4u5y" path="res://Scripts/800x500 DEFEAT.png" id="1_2lrlp"]
 [ext_resource type="FontFile" uid="uid://ctb3ansvnpmkh" path="res://Scripts/PublicPixel-rv0pA.ttf" id="1_4sflo"]
 [ext_resource type="Script" path="res://Scenes/game_over.gd" id="1_e4fnj"]
+[ext_resource type="Texture2D" uid="uid://c1o60qkfshcj7" path="res://Scenes/USE THE TILEMAP IN THIS CONFIG.png" id="2_123d7"]
 
 [node name="game over" type="Node2D"]
 script = ExtResource("1_e4fnj")
 
+[node name="UseTheTilemapInThisConfig" type="Sprite2D" parent="."]
+position = Vector2(576, 324)
+scale = Vector2(3.6, 3.6)
+texture = ExtResource("2_123d7")
+
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(560, 280)
+position = Vector2(584, 280)
 texture = ExtResource("1_2lrlp")
 
 [node name="Replay" type="Button" parent="."]

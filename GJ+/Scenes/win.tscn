@@ -1,11 +1,17 @@
-[gd_scene load_steps=4 format=3 uid="uid://pn3df2vwri7j"]
+[gd_scene load_steps=5 format=3 uid="uid://pn3df2vwri7j"]
 
 [ext_resource type="Texture2D" uid="uid://cf65ob6oc6cad" path="res://Scripts/800x500 VICTORY.png" id="1_42wi2"]
 [ext_resource type="Script" path="res://Scenes/win.gd" id="1_tsvnp"]
+[ext_resource type="Texture2D" uid="uid://c1o60qkfshcj7" path="res://Scenes/USE THE TILEMAP IN THIS CONFIG.png" id="2_adga2"]
 [ext_resource type="FontFile" uid="uid://ctb3ansvnpmkh" path="res://Scripts/PublicPixel-rv0pA.ttf" id="3_xvjw1"]
 
 [node name="Win" type="Node2D"]
 script = ExtResource("1_tsvnp")
+
+[node name="UseTheTilemapInThisConfig" type="Sprite2D" parent="."]
+position = Vector2(576, 324)
+scale = Vector2(3.6, 3.6)
+texture = ExtResource("2_adga2")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(539, 251)
