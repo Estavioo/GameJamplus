@@ -1,0 +1,13 @@
+res://Scenes/apple_tree.tscn::8d32460b22ebaa08f213ebac7001498d::1731235657::res://.godot/exported/133200997/export-c6e16dbff995b8215f00caeec44797c8-apple_tree.scn
+res://Scenes/bullet.tscn::d3518716350e59e5cd37636f656df06a::1731235657::res://.godot/exported/133200997/export-ebb3521b4f0ab2fc80eef1183e18e924-bullet.scn
+res://Scenes/health_bar.tscn::27ce5d421be4970c2c14942d163f39a3::1731235657::res://.godot/exported/133200997/export-b45d034b121aad3a5836579af01fcc72-health_bar.scn
+res://Scenes/main.tscn::36ff98e6f319d55eb7a7a750b16274d4::1731235657::res://.godot/exported/133200997/export-2ddd04d543d5858e7f20c9299a8b5096-main.scn
+res://Scenes/platform.tscn::3b0f437dc7dfd750a957eebcd5aba944::1731235657::res://.godot/exported/133200997/export-1c750248b0c8da796cecd1f6aa3f1f6d-platform.scn
+res://Scenes/piggy.tscn::357b5ebfa2415497f7e10a39505d6a65::1731235657::res://.godot/exported/133200997/export-e9131a42cecbb4faba720fd8d49908c1-piggy.scn
+res://Scenes/pause_menu.tscn::22acad3bdd68705ff0ad43260f582a82::1731235657::res://.godot/exported/133200997/export-e3d0420ddeb812b15edf3553f5556843-pause_menu.scn
+res://Scenes/House.tscn::b03ad8da7aec3de410f1ac3b00dbedb3::1731232599::res://.godot/exported/133200997/export-d1bb776812d06a9fc0062b6ed4218d17-House.scn
+res://Scenes/housee.tscn::232036838888b7f83f62331f0eec79c1::1731235657::res://.godot/exported/133200997/export-e2aba6d660f753cbcb2cce52a432a52c-housee.scn
+res://Scenes/game_over.tscn::c79605ca02eb5181b26fdce45ea22ff7::1731235657::res://.godot/exported/133200997/export-33c320c97f44f546398d5119030678b4-game_over.scn
+res://Scenes/menu.tscn::c9ac780514e996058f4743613d042d2f::1731235657::res://.godot/exported/133200997/export-53a0af8f00fbc899d4d541c34a803049-menu.scn
+res://Scenes/win.tscn::0e89ff3003614b67c32097966c8cf4d7::1731235657::res://.godot/exported/133200997/export-3ef41e412a2be89295573d61ac824435-win.scn
+res://Scenes/wolf_enemy.tscn::cd482b4923bd707b6327fe788288be21::1731235657::res://.godot/exported/133200997/export-5f2480c07f15f2458a03708f2e74322a-wolf_enemy.scn

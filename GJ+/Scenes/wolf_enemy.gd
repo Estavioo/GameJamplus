@@ -1,6 +1,6 @@
 extends PathFollow2D
 
-var speed = 0.03
+var speed = 0.035
 var previous_position: Vector2
 @onready var animated_sprite: AnimatedSprite2D = $Area2D/AnimatedSprite2D  # Reference to AnimatedSprite2D
 var health = 3  # Starting health

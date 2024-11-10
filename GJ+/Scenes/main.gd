@@ -3,8 +3,8 @@ extends Node2D
 var money = 25
 var wave = 0
 var enemy_left = 0
-var wave_mobs = [5, 6, 10, 20, 40, 50, 60, 70, 80, 90, 0]
-var wave_speed = [1, 2, 1, 0.5, 0.5, 0.3, 0.3, 0.2, 0.2, 0.2]
+var wave_mobs = [8, 16, 16, 32, 32, 64, 64, 0]
+var wave_speed = [1, 2, 1, 0.5, 0.5, 0.3, 0.3, 0]
 
 var instance
 var enemy = preload("res://Scenes/wolf_enemy.tscn")
@@ -45,7 +45,8 @@ func _on_enemy_timeout():
 		if wave < len(wave_mobs):
 			$Wave.start()
 		else:
-			get_tree().change_scene("res://Scenes/win.tscn")
+			await get_tree().create_timer(8).timeout
+			get_tree().change_scene_to_file("res://Scenes/win.tscn")
 
 # Button press event handler to build a tower
 func _on_texture_button_pressed():

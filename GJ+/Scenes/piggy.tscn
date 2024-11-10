@@ -112,7 +112,7 @@ script = ExtResource("1_sfpmq")
 sprite_frames = SubResource("SpriteFrames_fhwml")
 animation = &"idle"
 autoplay = "idle"
-frame_progress = 0.573611
+frame_progress = 0.205391
 
 [node name="backtoidle" type="Timer" parent="."]
 wait_time = 1.5

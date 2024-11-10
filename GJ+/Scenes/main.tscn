@@ -146,6 +146,12 @@ position = Vector2(216, 208)
 [node name="Node2D" parent="." instance=ExtResource("7_xpnwl")]
 position = Vector2(104, 192)
 
+[node name="StaticBody2D" parent="." instance=ExtResource("8_1ueqp")]
+position = Vector2(64, 104)
+
+[node name="checkifwin" type="Timer" parent="."]
+one_shot = true
+
 [node name="PauseMenu" parent="." instance=ExtResource("8_u4aif")]
 offset_left = 584.0
 offset_top = 344.0
@@ -153,9 +159,7 @@ offset_right = 584.0
 offset_bottom = 344.0
 scale = Vector2(1, 1.00315)
 
-[node name="StaticBody2D" parent="." instance=ExtResource("8_1ueqp")]
-position = Vector2(64, 104)
-
 [connection signal="timeout" from="Wave" to="." method="_on_wave_timeout"]
 [connection signal="timeout" from="Enemy" to="." method="_on_enemy_timeout"]
 [connection signal="pressed" from="CanvasLayer/TextureButton" to="." method="_on_texture_button_pressed"]
+[connection signal="timeout" from="checkifwin" to="." method="_on_checkifwin_timeout"]

@@ -1,5 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1731229282
+::res://::1731235835
+export_presets.cfg::TextFile::-1::1731235698::0::1::::<><>::
 icon.svg::CompressedTexture2D::9153216310564216638::1731204199::1731204225::1::::<><>::
 node_2d.gd::GDScript::-1::1731205810::0::1::::<>ProgressBar<>::
 Menu.gd::GDScript::-1::1731228439::0::1::::<>Control<>::
@@ -17,36 +18,38 @@ TREE SHOOTING.png::CompressedTexture2D::7941477012569437118::1731212337::1731212
 ui elems.png::CompressedTexture2D::1391158980046242216::1731222496::1731222496::1::::<><>::
 wolf sprtie.png::CompressedTexture2D::3159366926632621264::1731206567::1731206567::1::::<><>::
 ::res://Misc/::1731204251
-::res://Scenes/::1731233391
+::res://Scenes/::1731235846
 462566725_786999476852626_5887043176054404826_n.png::CompressedTexture2D::2801860829805031248::1731233391::1731233391::1::::<><>::
-apple_tree.gd::GDScript::-1::1731223666::0::1::::<>Node2D<>::
-apple_tree.tscn::PackedScene::2781143439593400202::1731233344::0::1::::<><>::uid://bmw738accmpl7::::res://Art/TREE IDLE.png<>res://Scenes/apple_tree.gd<>uid://dle573346fi0u::::res://Art/TREE SHOOTING.png
+apple_tree.gd::GDScript::-1::1731233988::0::1::::<>Node2D<>::
+apple_tree.tscn::PackedScene::2781143439593400202::1731235657::0::1::::<><>::uid://bmw738accmpl7::::res://Art/TREE IDLE.png<>res://Scenes/apple_tree.gd<>uid://dle573346fi0u::::res://Art/TREE SHOOTING.png
 BROKEN HOUSE.png::CompressedTexture2D::7969027882197914732::1731232778::1731232778::1::::<><>::
 bullet.gd::GDScript::-1::1731232115::0::1::::<>Area2D<>::
-bullet.tscn::PackedScene::471103779635929145::1731233344::0::1::::<><>::uid://byul5r6nxa5ir::::res://Art/FLYING APPLE.png<>res://Scenes/bullet.gd
+bullet.tscn::PackedScene::471103779635929145::1731235657::0::1::::<><>::uid://byul5r6nxa5ir::::res://Art/FLYING APPLE.png<>res://Scenes/bullet.gd
 DINGY HOUSE.png::CompressedTexture2D::9154918373713061489::1731232778::1731232778::1::::<><>::
-health_bar.tscn::PackedScene::278580321314357945::1731233344::0::1::::<><>::
+health_bar.tscn::PackedScene::278580321314357945::1731235657::0::1::::<><>::
 lil piggy td.png::CompressedTexture2D::7997154892648882333::1731233315::1731233316::1::::<><>::
-main.gd::GDScript::-1::1731232026::0::1::::<>Node2D<>::
-main.tscn::PackedScene::3184103200293539369::1731233344::0::1::::<><>::res://Scenes/main.gd<>uid://bjsupmayadkky::::res://Art/tilemap.png<>uid://c20hpom6p4y8g::::res://Scripts/buttton.png<>uid://bubq2b5k0ugkn::::res://Scenes/platform.tscn<>uid://ctb3ansvnpmkh::::res://Scripts/PublicPixel-rv0pA.ttf<>uid://bjju2480xeuk4::::res://Scenes/piggy.tscn<>uid://d3rf1lf8dt141::::res://Scenes/housee.tscn<>uid://b3hcj78ghwud7::::res://Scenes/pause_menu.tscn
+main.gd::GDScript::-1::1731235340::0::1::::<>Node2D<>::
+main.tscn::PackedScene::3184103200293539369::1731235657::0::1::::<><>::res://Scenes/main.gd<>uid://bjsupmayadkky::::res://Art/tilemap.png<>uid://c20hpom6p4y8g::::res://Scripts/buttton.png<>uid://bubq2b5k0ugkn::::res://Scenes/platform.tscn<>uid://ctb3ansvnpmkh::::res://Scripts/PublicPixel-rv0pA.ttf<>uid://bjju2480xeuk4::::res://Scenes/piggy.tscn<>uid://d3rf1lf8dt141::::res://Scenes/housee.tscn<>uid://b3hcj78ghwud7::::res://Scenes/pause_menu.tscn
 AnimatedSprite2D.gd::GDScript::-1::1731220085::0::1::::<>AnimatedSprite2D<>::
 piggy-Sheet (1).png::CompressedTexture2D::7466558999517160715::1731225673::1731225673::1::::<><>::
-platform.tscn::PackedScene::3793281721883542761::1731233344::0::1::::<><>::uid://d3xomc4ee0b6d::::res://Art/tilemapaaa-export.png
-piggy.tscn::PackedScene::3037963807835193905::1731233344::0::1::::<><>::uid://dem4evbhno524::::res://Scenes/piggy-Sheet (1).png
-pause_menu.tscn::PackedScene::4366298187975708406::1731233344::0::1::::<><>::res://Scenes/pause_menu.gdshader<>res://Scenes/pause_menu.gd<>uid://ctb3ansvnpmkh::::res://Scripts/PublicPixel-rv0pA.ttf
-pause_menu.gdshader::Shader::-1::1731233344::0::1::::<><>::
+platform.tscn::PackedScene::3793281721883542761::1731235657::0::1::::<><>::uid://d3xomc4ee0b6d::::res://Art/tilemapaaa-export.png
+piggy.tscn::PackedScene::3037963807835193905::1731235657::0::1::::<><>::uid://dem4evbhno524::::res://Scenes/piggy-Sheet (1).png<>res://Scenes/piggy.gd
+pause_menu.tscn::PackedScene::4366298187975708406::1731235657::0::1::::<><>::res://Scenes/pause_menu.gdshader<>res://Scenes/pause_menu.gd<>uid://ctb3ansvnpmkh::::res://Scripts/PublicPixel-rv0pA.ttf
+pause_menu.gdshader::Shader::-1::1731235657::0::1::::<><>::
 pause_menu.gd::GDScript::-1::1731228965::0::1::::<>Control<>::
 House.tscn::PackedScene::7542419685983945172::1731232599::0::1::::<><>::uid://puuy2rs1d8h1::::res://Scripts/H0USE-Sheet.png
-housee.tscn::PackedScene::9159994697353615236::1731233344::0::1::::<><>::uid://puuy2rs1d8h1::::res://Scripts/H0USE-Sheet.png<>res://Scenes/housee.gd<>uid://dlsiywawnrgfs::::res://Scenes/BROKEN HOUSE.png<>uid://d3oyfyju7y7k4::::res://Scenes/DINGY HOUSE.png
+housee.tscn::PackedScene::9159994697353615236::1731235657::0::1::::<><>::uid://puuy2rs1d8h1::::res://Scripts/H0USE-Sheet.png<>res://Scenes/housee.gd<>uid://dlsiywawnrgfs::::res://Scenes/BROKEN HOUSE.png<>uid://d3oyfyju7y7k4::::res://Scenes/DINGY HOUSE.png
 housee.gd::GDScript::-1::1731233282::0::1::::<>StaticBody2D<>::
-game_over.tscn::PackedScene::531866945182587588::1731233344::0::1::::<><>::uid://wshu0tys4u5y::::res://Scripts/800x500 DEFEAT.png<>uid://ctb3ansvnpmkh::::res://Scripts/PublicPixel-rv0pA.ttf<>res://Scenes/game_over.gd<>uid://c1o60qkfshcj7::::res://Scenes/USE THE TILEMAP IN THIS CONFIG.png
-menu.tscn::PackedScene::8698278531023606630::1731233344::0::1::::<><>::res://Menu.gd<>uid://c1o60qkfshcj7::::res://Scenes/USE THE TILEMAP IN THIS CONFIG.png<>uid://ctb3ansvnpmkh::::res://Scripts/PublicPixel-rv0pA.ttf<>uid://dl648coljm1kr::::res://Scenes/lil piggy td.png
+game_over.tscn::PackedScene::531866945182587588::1731235657::0::1::::<><>::uid://wshu0tys4u5y::::res://Scripts/800x500 DEFEAT.png<>uid://ctb3ansvnpmkh::::res://Scripts/PublicPixel-rv0pA.ttf<>res://Scenes/game_over.gd<>uid://c1o60qkfshcj7::::res://Scenes/USE THE TILEMAP IN THIS CONFIG.png
+menu.tscn::PackedScene::8698278531023606630::1731235657::0::1::::<><>::res://Menu.gd<>uid://bf6iidynmmrci::::res://Scenes/462566725_786999476852626_5887043176054404826_n.png<>uid://ctb3ansvnpmkh::::res://Scripts/PublicPixel-rv0pA.ttf
 game_over.gd::GDScript::-1::1731229089::0::1::::<>Node2D<>::
+piggy.gd::GDScript::-1::1731234112::0::1::::<>Node2D<>::
+Untitled design (16).png::CompressedTexture2D::4144629818509011356::1731235846::1731235847::1::::<><>::
 USE THE TILEMAP IN THIS CONFIG.png::CompressedTexture2D::6628580318228419154::1731233245::1731233245::1::::<><>::
 win.gd::GDScript::-1::1731228941::0::1::::<>Node2D<>::
-win.tscn::PackedScene::1081375303863130289::1731233344::0::1::::<><>::uid://cf65ob6oc6cad::::res://Scripts/800x500 VICTORY.png<>res://Scenes/win.gd<>uid://c1o60qkfshcj7::::res://Scenes/USE THE TILEMAP IN THIS CONFIG.png<>uid://ctb3ansvnpmkh::::res://Scripts/PublicPixel-rv0pA.ttf
-wolf_enemy.gd::GDScript::-1::1731232702::0::1::::<>PathFollow2D<>::
-wolf_enemy.tscn::PackedScene::5547523337755114895::1731233344::0::1::::<><>::uid://blaokuk0yjwtk::::res://Art/wolf sprtie.png<>res://Scenes/wolf_enemy.gd
+win.tscn::PackedScene::1081375303863130289::1731235657::0::1::::<><>::uid://cf65ob6oc6cad::::res://Scripts/800x500 VICTORY.png<>res://Scenes/win.gd<>uid://c1o60qkfshcj7::::res://Scenes/USE THE TILEMAP IN THIS CONFIG.png<>uid://ctb3ansvnpmkh::::res://Scripts/PublicPixel-rv0pA.ttf
+wolf_enemy.gd::GDScript::-1::1731235420::0::1::::<>PathFollow2D<>::
+wolf_enemy.tscn::PackedScene::5547523337755114895::1731235657::0::1::::<><>::uid://blaokuk0yjwtk::::res://Art/wolf sprtie.png<>res://Scenes/wolf_enemy.gd
 ::res://Scripts/::1731228747
 800x500 DEFEAT.png::CompressedTexture2D::1581775437987957292::1731228747::1731228747::1::::<><>::
 800x500 VICTORY.png::CompressedTexture2D::5189627907902155939::1731228747::1731228732::1::::<><>::
