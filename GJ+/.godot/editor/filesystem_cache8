@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1731206559
+::res://::1731209733
 icon.svg::CompressedTexture2D::9153216310564216638::1731204199::1731204225::1::::<><>::
 node_2d.gd::GDScript::-1::1731205810::0::1::::<>ProgressBar<>::
 ::res://Art/::1731206567
@@ -8,7 +8,10 @@ grass tilemap.png::CompressedTexture2D::4120873024903903784::1731206567::1731206
 tilemap.png::CompressedTexture2D::3056520834143152940::1731206567::1731206567::1::::<><>::
 wolf sprtie.png::CompressedTexture2D::3159366926632621264::1731206567::1731206567::1::::<><>::
 ::res://Misc/::1731204251
-::res://Scenes/::1731206557
-health_bar.tscn::PackedScene::278580321314357945::1731206459::0::1::::<><>::
-wolf_enemy.tscn::PackedScene::5547523337755114895::1731206554::0::1::::<><>::
-::res://Scripts/::1731206559
+::res://Scenes/::1731209605
+health_bar.tscn::PackedScene::278580321314357945::1731209586::0::1::::<><>::
+main.tscn::PackedScene::3184103200293539369::1731209605::0::1::::<><>::uid://bjsupmayadkky::::res://Art/tilemap.png<>uid://clbi5tdfx6sd0::::res://Scenes/wolf_enemy.tscn<>res://Scripts/PathFollow2D.gd
+wolf_enemy.tscn::PackedScene::5547523337755114895::1731209586::0::1::::<><>::uid://blaokuk0yjwtk::::res://Art/wolf sprtie.png
+::res://Scripts/::1731209700
+PathFollow2D.gd::GDScript::-1::1731209585::0::1::::<>PathFollow2D<>::
+wolf_enemy.gd::GDScript::-1::1731209700::0::1::::<>CharacterBody2D<>::
