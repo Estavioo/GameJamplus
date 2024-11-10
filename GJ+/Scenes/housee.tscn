@@ -1,7 +1,48 @@
-[gd_scene load_steps=5 format=3 uid="uid://d3rf1lf8dt141"]
+[gd_scene load_steps=11 format=3 uid="uid://d3rf1lf8dt141"]
 
 [ext_resource type="Texture2D" uid="uid://puuy2rs1d8h1" path="res://Scripts/H0USE-Sheet.png" id="1_nrgwt"]
 [ext_resource type="Script" path="res://Scenes/housee.gd" id="1_se8sy"]
+[ext_resource type="Texture2D" uid="uid://dlsiywawnrgfs" path="res://Scenes/BROKEN HOUSE.png" id="2_8vc47"]
+[ext_resource type="Texture2D" uid="uid://d3oyfyju7y7k4" path="res://Scenes/DINGY HOUSE.png" id="3_47w8q"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ca5ne"]
+atlas = ExtResource("2_8vc47")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kguaa"]
+atlas = ExtResource("3_47w8q")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xmji5"]
+atlas = ExtResource("1_nrgwt")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_fdsew"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ca5ne")
+}],
+"loop": true,
+"name": &"Destroyed",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kguaa")
+}],
+"loop": true,
+"name": &"broken",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xmji5")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_2vwjm"]
 
@@ -12,8 +53,11 @@ size = Vector2(64, 53)
 scale = Vector2(2.37657, 2.32384)
 script = ExtResource("1_se8sy")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("1_nrgwt")
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(1, 1)
+sprite_frames = SubResource("SpriteFrames_fdsew")
+animation = &"Destroyed"
+autoplay = "default"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_2vwjm")

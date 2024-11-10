@@ -1,3 +1,5 @@
+CanvasLayer
+AnimatedSprite2D
 Button
 Sprite2D
 VBoxContainer
@@ -8,7 +10,6 @@ StaticBody2D
 ColorRect
 AnimationPlayer
 PanelContainer
-AnimatedSprite2D
 Node
 Label
 TextureButton

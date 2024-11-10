@@ -13,6 +13,7 @@ func _on_area_2d_area_entered(area):
 		print("Enemy reached the house! Total:", enemy_counter)
 		
 		if enemy_counter >= MAX_ENEMIES:
+			
 			end_game()
 
 # Function to handle the end game scenario

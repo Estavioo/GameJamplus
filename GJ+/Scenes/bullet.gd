@@ -1,7 +1,7 @@
 extends Area2D
 
 var target : Node2D
-var speed = 500 
+var speed = 550
 var direction = Vector2.ZERO
 
 func _ready():
