@@ -19,3 +19,5 @@ res://Scenes/housee.gd
 res://Scenes/game_over.tscn
 res://Menu.gd
 res://Scenes/menu.tscn
+res://Scenes/win.gd
+res://Scenes/game_over.gd

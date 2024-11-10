@@ -154,7 +154,7 @@ offset_bottom = 344.0
 scale = Vector2(1, 1.00315)
 
 [node name="StaticBody2D" parent="." instance=ExtResource("8_1ueqp")]
-position = Vector2(896, 64)
+position = Vector2(64, 104)
 
 [connection signal="timeout" from="Wave" to="." method="_on_wave_timeout"]
 [connection signal="timeout" from="Enemy" to="." method="_on_enemy_timeout"]
