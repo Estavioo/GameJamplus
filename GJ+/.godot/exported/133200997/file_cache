@@ -1,7 +1,7 @@
 res://Scenes/apple_tree.tscn::8d32460b22ebaa08f213ebac7001498d::1731235657::res://.godot/exported/133200997/export-c6e16dbff995b8215f00caeec44797c8-apple_tree.scn
 res://Scenes/bullet.tscn::d3518716350e59e5cd37636f656df06a::1731235657::res://.godot/exported/133200997/export-ebb3521b4f0ab2fc80eef1183e18e924-bullet.scn
 res://Scenes/health_bar.tscn::27ce5d421be4970c2c14942d163f39a3::1731235657::res://.godot/exported/133200997/export-b45d034b121aad3a5836579af01fcc72-health_bar.scn
-res://Scenes/main.tscn::36ff98e6f319d55eb7a7a750b16274d4::1731235657::res://.godot/exported/133200997/export-2ddd04d543d5858e7f20c9299a8b5096-main.scn
+res://Scenes/main.tscn::36ff98e6f319d55eb7a7a750b16274d4::1731235937::res://.godot/exported/133200997/export-2ddd04d543d5858e7f20c9299a8b5096-main.scn
 res://Scenes/platform.tscn::3b0f437dc7dfd750a957eebcd5aba944::1731235657::res://.godot/exported/133200997/export-1c750248b0c8da796cecd1f6aa3f1f6d-platform.scn
 res://Scenes/piggy.tscn::357b5ebfa2415497f7e10a39505d6a65::1731235657::res://.godot/exported/133200997/export-e9131a42cecbb4faba720fd8d49908c1-piggy.scn
 res://Scenes/pause_menu.tscn::22acad3bdd68705ff0ad43260f582a82::1731235657::res://.godot/exported/133200997/export-e3d0420ddeb812b15edf3553f5556843-pause_menu.scn
