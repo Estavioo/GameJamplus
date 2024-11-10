@@ -146,7 +146,8 @@ size = Vector2(64, 64)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_ccfan")
-animation = &"Right"
+animation = &"Left"
+autoplay = "Left"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_rph5c")
